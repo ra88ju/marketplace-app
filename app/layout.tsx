@@ -15,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className="pt-[72px]">
         <Header />
         <main>{children}</main>
         <Footer />

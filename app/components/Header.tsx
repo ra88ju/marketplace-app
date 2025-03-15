@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Header() {
   return (
-    <header className="border-b border-gray-100 bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07)]">
+    <header className="fixed top-0 left-0 right-0 border-b border-gray-100 bg-white shadow-[0_4px_20px_-2px_rgba(0,0,0,0.25)] z-50">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-[72px]">
           {/* Logo */}

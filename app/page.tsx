@@ -29,8 +29,9 @@ export default function Home() {
   const displayedBusinesses = filteredBusinesses.slice(startIndex, startIndex + ITEMS_PER_PAGE);
 
   return (
-    <div className="min-h-screen bg-[#fdf5e6]">
-     
+    <div className="min-h-screen bg-[#fffaf0]">
+
+      
       
       <main className="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
         {/* Hero Section */}

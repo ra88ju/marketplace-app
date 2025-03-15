@@ -15,18 +15,34 @@ export default function CollectionCard({
   buttonColor,
   href,
 }: CollectionCardProps) {
-  const buttonStyles = {
-    pink: 'bg-[#FF1493] hover:bg-[#FF1493]/90',
-    teal: 'bg-[#00A3A3] hover:bg-[#00A3A3]/90',
+  const colors = {
+    pink: {
+      border: 'border-[#E91E63]',
+      text: 'text-[#E91E63]',
+      bg: 'bg-[#E91E63]',
+      hover: 'hover:bg-[#D81B60]'
+    },
+    teal: {
+      border: 'border-[#009688]',
+      text: 'text-[#009688]',
+      bg: 'bg-[#009688]',
+      hover: 'hover:bg-[#00897B]'
+    }
   };
 
+  const colorScheme = colors[buttonColor];
+
   return (
-    <div className="rounded-2xl border border-gray-200 p-8 bg-white">
-      <h3 className="text-2xl font-medium mb-3">{title}</h3>
-      <p className="text-gray-600 mb-6">{description}</p>
+    <div className={`rounded-3xl border-2 ${colorScheme.border} p-8 bg-white`}>
+      <h2 className={`${colorScheme.text} text-3xl font-medium mb-4`}>
+        {title}
+      </h2>
+      <p className={`${colorScheme.text} text-lg mb-6`}>
+        {description}
+      </p>
       <Link
         href={href}
-        className={`inline-block px-6 py-2 rounded-full text-white text-sm font-medium transition-colors ${buttonStyles[buttonColor]}`}
+        className={`inline-block ${colorScheme.bg} text-white px-6 py-2.5 rounded-full ${colorScheme.hover} transition-colors`}
       >
         {buttonText}
       </Link>
