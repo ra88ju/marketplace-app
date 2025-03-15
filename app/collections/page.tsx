@@ -36,7 +36,7 @@ export default function CollectionsPage() {
             Discover innovative businesses founded and led by inspiring women.
           </p>
           <a
-            href="/collections/women-led"
+            href="/collections/women-led
             className="inline-block bg-[#009688] text-white px-6 py-2.5 rounded-full hover:bg-[#00897B] transition-colors"
           >
             Explore Collection
