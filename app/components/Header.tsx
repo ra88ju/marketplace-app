@@ -14,7 +14,7 @@ export default function Header() {
           {/* Navigation */}
           <nav className="flex items-center space-x-8">
             <Link href="/discover" className="text-[17px] text-gray-900 hover:text-gray-600">
-              Discover
+              Discover by
             </Link>
             <Link href="/collections" className="text-[17px] text-gray-900 hover:text-gray-600">
               Collections
