@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import Header from './components/Header';
 import BusinessCard from './components/BusinessCard';
 import CollectionCard from './components/CollectionCard';
 import CategoryDropdown from './components/CategoryDropdown';
@@ -30,16 +29,16 @@ export default function Home() {
   const displayedBusinesses = filteredBusinesses.slice(startIndex, startIndex + ITEMS_PER_PAGE);
 
   return (
-    <div className="min-h-screen bg-[#FFFBF7]">
-      <Header />
+    <div className="min-h-screen bg-[#fdf5e6]">
+     
       
       <main className="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
         {/* Hero Section */}
         <section className="text-center py-16 px-4">
-          <h1 className="text-[40px] font-medium mb-4">
+          <h1 className="text-[40px] font-medium mb-4 text-black">
             A Marketplace for Diverse<br />Small Businesses
           </h1>
-          <p className="text-gray-600 mb-8">
+          <p className="text-gray-900 mb-8 text-lg">
             Discover and support unique artisans and small business<br />owners in your community
           </p>
           

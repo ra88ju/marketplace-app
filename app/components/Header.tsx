@@ -2,38 +2,38 @@ import Link from 'next/link';
 
 export default function Header() {
   return (
-    <header className="sticky top-0 z-50 bg-white shadow-[0_4px_12px_-2px_rgba(0,0,0,0.12)]">
+    <header className="border-b border-gray-100 bg-white">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-[72px]">
           {/* Logo */}
           <Link href="/" className="flex items-center">
-            <span className="text-xl font-semibold">MKT</span>
-            <span className="text-sm ml-1">by Rita</span>
+            <span className="text-[28px] font-bold tracking-tight text-black">MKT</span>
+            <span className="text-base ml-2 text-black">by Rita</span>
           </Link>
 
           {/* Navigation */}
           <nav className="flex items-center space-x-8">
-            <Link href="/discover" className="text-gray-600 hover:text-gray-900">
+            <Link href="/discover" className="text-[17px] text-gray-900 hover:text-gray-600">
               Discover
             </Link>
-            <Link href="/collections" className="text-gray-600 hover:text-gray-900">
+            <Link href="/collections" className="text-[17px] text-gray-900 hover:text-gray-600">
               Collections
             </Link>
-            <Link href="/events" className="text-gray-600 hover:text-gray-900">
+            <Link href="/events" className="text-[17px] text-gray-900 hover:text-gray-600">
               Events
             </Link>
           </nav>
 
           {/* Auth Buttons */}
-          <div className="flex items-center space-x-4">
-            <Link href="/login" className="text-gray-600 hover:text-gray-900">
+          <div className="flex items-center space-x-6">
+            <Link href="/login" className="text-[17px] text-gray-900 hover:text-gray-600">
               Login
             </Link>
             <Link
               href="/register"
-              className="bg-[#0095FF] text-white px-4 py-2 rounded-lg hover:bg-[#0084e3] transition-colors"
+              className="bg-[#0095FF] text-white px-8 py-2.5 rounded-full hover:bg-[#0084e3] transition-colors text-[17px]"
             >
-              Biz/Org Registratio
+              Biz/Org Registration
             </Link>
           </div>
         </div>
