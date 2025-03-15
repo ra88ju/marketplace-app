@@ -14,7 +14,7 @@ export default function Header() {
           {/* Navigation */}
           <nav className="flex items-center space-x-8">
             <Link href="/discover" className="text-[17px] text-gray-900 hover:text-gray-600">
-              Discover by
+              Discover
             </Link>
             <Link href="/collections" className="text-[17px] text-gray-900 hover:text-gray-600">
               Collections
@@ -33,7 +33,7 @@ export default function Header() {
               href="/register"
               className="bg-[#0095FF] text-white px-8 py-2.5 rounded-full hover:bg-[#0084e3] transition-colors text-[17px]"
             >
-              Biz/Org Registration
+              Bizz/Org Registration
             </Link>
           </div>
         </div>
