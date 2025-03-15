@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <footer className="bg-[#FFFBF7] py-5 shadow-[0_-4px_12px_-2px_rgba(0,0,0,0.08)]">
+    <footer className="bg-[#FFFBF2] py-5 shadow-[0_-4px_12px_-2px_rgba(0,0,0,0.25)]">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           {/* About MKT Section */}
@@ -105,4 +105,4 @@ export default function Footer() {
       </div>
     </footer>
   );
-} 
+}

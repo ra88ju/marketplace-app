@@ -1,13 +1,5 @@
 export const categories = [
   'All Categories',
-  'Handmade',
-  'Food & Beverage',
-  'Art & Design',
-  'Fashion',
-  'Beauty',
-  'Home & Garden',
-  'Jewelry',
-  'Books & Music'
 ];
 
 export const locations = [
@@ -41,6 +33,7 @@ export const businesses = [
     imageUrl: '/images/sweet-simple-bakery.jpg'
   },
   {
+    id: 3,
     category: 'Art & Design',
     title: 'Canvas & Color',
     description: 'Contemporary art and custom framing services',
@@ -48,6 +41,7 @@ export const businesses = [
     imageUrl: '/images/art.jpg',
   },
   {
+    id: 4,
     category: 'Fashion',
     title: 'Vintage Vibes',
     description: 'Curated collection of vintage and sustainable fashion',
@@ -55,6 +49,7 @@ export const businesses = [
     imageUrl: '/images/fashion.jpg',
   },
   {
+    id: 5,
     category: 'Beauty',
     title: 'Natural Glow',
     description: 'Handmade organic skincare and wellness products',
@@ -62,6 +57,7 @@ export const businesses = [
     imageUrl: '/images/beauty.jpg',
   },
   {
+    id: 6,
     category: 'Home & Garden',
     title: 'Urban Jungle',
     description: 'Rare and exotic plants for your indoor paradise',
@@ -69,6 +65,7 @@ export const businesses = [
     imageUrl: '/images/plants.jpg',
   },
   {
+    id: 7,
     category: 'Jewelry',
     title: 'Silver & Stone',
     description: 'Handcrafted jewelry with natural gemstones',
@@ -76,6 +73,7 @@ export const businesses = [
     imageUrl: '/images/jewelry.jpg',
   },
   {
+    id: 8,
     category: 'Food & Beverage',
     title: 'Morning Brew Co.',
     description: 'Small-batch coffee roasting and specialty drinks',
@@ -83,10 +81,11 @@ export const businesses = [
     imageUrl: '/images/coffee.jpg',
   },
   {
+    id: 9,
     category: 'Books & Music',
     title: 'Chapter One',
     description: 'Independent bookstore with rare and used books',
     location: 'Boston, MA',
     imageUrl: '/images/books.jpg',
   }
-]; 
+];
