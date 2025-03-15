@@ -33,7 +33,7 @@ export default function Header() {
               href="/register"
               className="bg-[#0095FF] text-white px-4 py-2 rounded-lg hover:bg-[#0084e3] transition-colors"
             >
-              Biz/Org Registration
+              Biz/Org Registratio
             </Link>
           </div>
         </div>
