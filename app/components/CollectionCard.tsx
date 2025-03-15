@@ -33,19 +33,18 @@ export default function CollectionCard({
   const colorScheme = colors[buttonColor];
 
   return (
-    <div className={`rounded-3xl border-2 ${colorScheme.border} p-8 bg-white`}>
+    <Link href="/collections" className={`block rounded-3xl border-2 ${colorScheme.border} p-8 hover:shadow-lg transition-shadow`}>
       <h2 className={`${colorScheme.text} text-3xl font-medium mb-4`}>
         {title}
       </h2>
       <p className={`${colorScheme.text} text-lg mb-6`}>
         {description}
       </p>
-      <Link
-        href={href}
+      <span
         className={`inline-block ${colorScheme.bg} text-white px-6 py-2.5 rounded-full ${colorScheme.hover} transition-colors`}
       >
         {buttonText}
-      </Link>
-    </div>
+      </span>
+    </Link>
   );
 } 
