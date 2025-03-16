@@ -4,7 +4,7 @@ import Link from 'next/link';
 export default function RegisterPage() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-[#FDF8F7] px-4 py-16">
-      <div className="bg-white rounded-[20px] p-8 w-full max-w-[480px] shadow-[0_10px_40px_-12px_rgba(0,0,0,0.12)]">
+      <div className="bg-white rounded-[20px] p-8 w-full max-w-[480px] shadow-[0_8px_30px_rgb(0,0,0,0.1)] border-[#E8D0B9]">
         <h1 className="text-[20px] font-[700] leading-[30px] tracking-[0%] mb-8 font-fahkwang text-[#0C090A] text-center">
           Business or Organizer Registration
         </h1>
@@ -22,7 +22,7 @@ export default function RegisterPage() {
               <select
                 id="accountType"
                 name="accountType"
-                className="w-full px-4 py-[14px] rounded-[12px] border border-[#E5E7EB] focus:border-[#0095FF] focus:ring-1 focus:ring-[#0095FF] outline-none transition-colors font-heebo bg-white appearance-none text-[#0C090A] pr-10"
+                className="w-full px-4 py-[14px] rounded-[12px] border border-[#E8D0B9] focus:border-[#0095FF] focus:ring-1 focus:ring-[#0095FF] outline-none transition-colors font-heebo bg-white appearance-none text-[#0C090A] pr-10"
                 required
                 defaultValue="Business"
               >
@@ -48,7 +48,7 @@ export default function RegisterPage() {
               type="text"
               id="businessName"
               name="businessName"
-              className="w-full px-4 py-[14px] rounded-[12px] border border-[#E5E7EB] focus:border-[#0095FF] focus:ring-1 focus:ring-[#0095FF] outline-none transition-colors font-heebo text-[#0C090A] placeholder-[#6B7280]"
+              className="w-full px-4 py-[14px] rounded-[12px] border border-[#E8D0B9] focus:border-[#0095FF] focus:ring-1 focus:ring-[#0095FF] outline-none transition-colors font-heebo text-[#0C090A] placeholder-[#6B7280]"
               required
             />
           </div>
@@ -64,7 +64,7 @@ export default function RegisterPage() {
               type="email"
               id="email"
               name="email"
-              className="w-full px-4 py-[14px] rounded-[12px] border border-[#E5E7EB] focus:border-[#0095FF] focus:ring-1 focus:ring-[#0095FF] outline-none transition-colors font-heebo text-[#0C090A] placeholder-[#6B7280]"
+              className="w-full px-4 py-[14px] rounded-[12px] border border-[#E8D0B9] focus:border-[#0095FF] focus:ring-1 focus:ring-[#0095FF] outline-none transition-colors font-heebo text-[#0C090A] placeholder-[#6B7280]"
               required
             />
           </div>
@@ -80,7 +80,7 @@ export default function RegisterPage() {
               type="password"
               id="password"
               name="password"
-              className="w-full px-4 py-[14px] rounded-[12px] border border-[#E5E7EB] focus:border-[#0095FF] focus:ring-1 focus:ring-[#0095FF] outline-none transition-colors font-heebo text-[#0C090A] placeholder-[#6B7280]"
+              className="w-full px-4 py-[14px] rounded-[12px] border border-[#E8D0B9] focus:border-[#0095FF] focus:ring-1 focus:ring-[#0095FF] outline-none transition-colors font-heebo text-[#0C090A] placeholder-[#6B7280]"
               required
             />
           </div>
