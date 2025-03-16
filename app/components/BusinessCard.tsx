@@ -1,3 +1,4 @@
+import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -9,16 +10,10 @@ interface BusinessCardProps {
   imageUrl: string;
 }
 
-export default function BusinessCard({
-  category,
-  title,
-  description,
-  location,
-  imageUrl,
-}: BusinessCardProps) {
+const BusinessCard: React.FC<BusinessCardProps> = ({ category, title, description, location, imageUrl }) => {
   return (
-    <div className="bg-white rounded-xl overflow-hidden shadow-[0_1px_3px_0_rgba(0,0,0,0.07)] hover:shadow-[0_4px_6px_-1px_rgba(0,0,0,0.1)] transition-shadow duration-200">
-      <div className="relative h-44 w-full">
+    <div className="bg-white rounded-xl overflow-hidden shadow-[0_1px_3px_0_rgba(0,0,0,0.1)] hover:shadow-[0_4px_6px_-1px_rgba(0,0,0,0.8)] transition-shadow duration-300">
+      <div className="relative h-40 w-full">
         <Image
           src={imageUrl}
           alt={title}
@@ -43,4 +38,6 @@ export default function BusinessCard({
       </div>
     </div>
   );
-} 
+};
+
+export default BusinessCard;

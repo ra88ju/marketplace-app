@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&family=Fahkwang:wght@400;500;700&display=swap');
 
 body {
   font-family: 'Heebo', sans-serif;
@@ -7,6 +7,10 @@ body {
 
 .category-text {
   color: #0597F2; /* Set the category text color */
+}
+
+.font-fahkwang {
+  font-family: 'Fahkwang', sans-serif;
 }
 
 .business-card {
@@ -20,3 +24,4 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
+

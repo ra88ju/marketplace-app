@@ -6,7 +6,7 @@ export default function Header() {
     <>
       <Head>
         <link
-          href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&family=Fahkwang:wght@400;500;700&display=swap"
           rel="stylesheet"
         />
       </Head>
@@ -16,7 +16,7 @@ export default function Header() {
             <div className="flex items-center space-x-6">
               {/* Logo */}
               <Link href="/" className="flex items-center mr-8">
-                <span className="text-[28px] font-bold tracking-tight text-[#0C090A] font-heebo">MKT</span>
+                <span className="text-[28px] font-bold tracking-tight text-[#0C090A] font-fahkwang">MKT</span>
                 <span className="text-base ml-2 text-[#0C090A] font-heebo">by Rita</span>
               </Link>
 
